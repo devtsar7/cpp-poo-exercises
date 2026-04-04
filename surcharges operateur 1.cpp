@@ -22,8 +22,8 @@
     point3d p1(10,15,30);
      point3d p2(10,15,30);
       point3d p3(10,15,30);
- p1 += p2 += p3;  // test chaînage
-    p1.afficher();   // affiche le résultat
-    p2.afficher();   // vérifie p2 après le += p3
+ p1 += p2 += p3;  
+    p1.afficher();   
+    p2.afficher();   
     return 0 ;
  }
